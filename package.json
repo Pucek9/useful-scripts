@@ -1,12 +1,13 @@
 {
   "name": "useful-scripts",
   "version": "1.0.0",
-  "description": "useful scripts like prependFile and pyramid destroyer",
+  "description": "useful scripts like prependFile and removePyramids",
   "main": "main.js",
+  "git": "https://github.com/Pucek9/useful-scripts.git",
   "scripts": {
     "script": "node main.js",
-    "prependUseStrict": "npm run script prependFile E:\\Projekty\\UsefulScripts\\test .js \"'use strict';\n\"",
-    "removePyramids": "npm run script removePyramids E:\\Projekty\\UsefulScripts\\test\\deep .js",
+    "prependUseStrict": "npm run script prependFile",
+    "removePyramids": "npm run script removePyramids",
     "lint": "eslint *.js ./**/*.js --fix",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
