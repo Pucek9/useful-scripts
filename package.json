@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "useful scripts like prependFile and removePyramids",
   "main": "main.js",
-  "git": "https://github.com/Pucek9/useful-scripts.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Pucek9/useful-scripts.git"
+  },
   "scripts": {
     "script": "node main.js",
     "prependUseStrict": "npm run script prependFile",

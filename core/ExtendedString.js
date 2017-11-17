@@ -1,4 +1,5 @@
 'use strict';
+
 class ExtendedString extends String {
 
 	constructor (arg) {
@@ -12,6 +13,12 @@ class ExtendedString extends String {
 			if (i < 0) break;
 		}
 		return i;
+	}
+
+	includesOr (searchString, start) {
+		return searchString
+			.map(str => super.includes(str, start))
+			.reduce((a, b) => a || b, false);
 	}
 
 	count (search) {
